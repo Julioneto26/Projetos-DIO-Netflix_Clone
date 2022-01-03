@@ -15,7 +15,7 @@
 
 body {
   background: var(--preto);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Arial', Times, serif;
   color: white;
 }
 .logo {
@@ -51,17 +51,19 @@ header .container {
 }
 .principal .descricao {
   margin-bottom: 40px;
+  margin-top: 10px;
 }
 .titulo {
   font-size: 40px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  margin-top: 14%;
+  margin-top: 15%;
+  /*margin-bottom: 20px;*/
 }
 .botao {
   background-color: rgba(0, 0, 0, .60);
   border: none;
   color: white;
-  padding: 15px;
+  padding: 15px 30px;
   margin-right: 15px;
   font-size: 12px;
   cursor: pointer;
@@ -71,4 +73,25 @@ header .container {
 .botao:hover{
   background-color: white;
   color: black;
+}
+  .botao i{
+    margin-right:8px;
+  }
+.container{
+  margin-left:20px;
+}
+
+.principal .container{
+  max-width: 70%;
+}
+
+/*--Carrosel Owl--*/
+.box-filme{
+  height: 100%;
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+.carrosel-owl{
+  margin-top: 10px;
 }

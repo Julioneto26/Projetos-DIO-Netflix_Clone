@@ -1,0 +1,32 @@
+/*Media Queries*/
+@media screen and (max-width: 730px) {
+  header .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .botao{
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .principal .container {
+    width: 50%;
+  }
+}
+@media screen and (max-width:350px) {
+  .principal {
+    display: block;
+    margin: 10px 0px;
+    height: 430px;
+    padding-top: 5px;
+  }
+  .principal p{
+    font-size: 14px;
+    
+  }
+  .carrosel-owl{
+    margin-top: 10px;
+  }
+}
